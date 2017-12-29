@@ -39,13 +39,13 @@
     
     NSArray *tmpArray = @[
                           [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
-//                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
+                          [self testDetailStr],
                           ];
     
     [_scView resetWithDetailArray:tmpArray];

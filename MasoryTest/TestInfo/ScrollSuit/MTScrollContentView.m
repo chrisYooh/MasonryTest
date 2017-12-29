@@ -83,12 +83,10 @@
         if (0 == i) {
             /* 首项 */
             [tmpView mas_makeConstraints:^(MASConstraintMaker *make) {
-                make.top.equalTo(mainView.scrollView).offset(100);
+                make.top.equalTo(mainView.scrollView).offset(50);
                 make.left.equalTo(mainView).offset(15);
                 make.right.equalTo(mainView).offset(-15);
-                make.height.mas_equalTo(50);
             }];
-            [tmpView setBackgroundColor:[UIColor yellowColor]];
             
         } else {
             /* 普通项目 */
@@ -96,7 +94,6 @@
                 make.top.equalTo(refView.mas_bottom).offset(10);
                 make.left.equalTo(mainView).offset(15);
                 make.right.equalTo(mainView).offset(-15);
-                make.height.mas_equalTo(50);
             }];
         }
         
